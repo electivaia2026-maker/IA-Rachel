@@ -1,0 +1,26 @@
+[FIREWALL]
+El firewall del Centinela Gateway utiliza un motor de inspección profunda de paquetes (DPI) de última generación. 
+Está configurado en modo escudo activo, lo que permite bloquear automáticamente cualquier IP detectada como maliciosa.
+Las reglas de seguridad se dividen en ENTRANTE (INBOUND) y SALIENTE (OUTBOUND).
+Actualmente, el sistema está protegiendo servicios críticos como HTTPS (puerto 443) y SSH (puerto 22).
+Si detectas una anomalía, el Mapa de Amenazas Global mostrará líneas rojas indicando el origen del ataque.
+
+[PAQUETES]
+El Servidor de Paquetes gestiona la distribución de software en el cluster.
+Los estados de los paquetes son: ESTABLE (listo para producción), BETA (en pruebas), y DEPRECADO (no recomendado).
+Para desplegar un paquete, debes seleccionar el servidor objetivo y hacer clic en "DESPLEGAR".
+La salud del repositorio se mantiene en un 85% de capacidad óptima.
+Soportamos formatos de compresión avanzada y firmas digitales para asegurar la integridad de cada envío.
+
+[STREAMING]
+El Hub de Transmisión soporta protocolos SRT y RTMP de baja latencia.
+La Señal Alpha-4 es la transmisión principal y está encriptada de extremo a extremo.
+El bitrate estándar es de 8.5 Mbps con una latencia nominal de 42ms.
+Contamos con nodos relé en Houston (E1), Berlín (G2) y Tokio (T1).
+El sistema de visualización de ondas permite monitorear la estabilidad de la señal en tiempo real.
+
+[IA-SENTINEL]
+Centinela IA es la interfaz de red neuronal que coordina todos los servicios.
+Ha sido entrenada para optimizar el rendimiento y detectar vulnerabilidades antes de que ocurran.
+Puedes preguntarle sobre el estado de cualquier servicio usando palabras clave como 'firewall', 'paquete' o 'stream'.
+La IA reside en el nodo local y tiene una disponibilidad del 99.9%.
